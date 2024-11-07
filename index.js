@@ -6,7 +6,7 @@ require('dotenv').config(); // Load environment variables
 const userRoutes = require('./routes/user');
 const cartRoutes = require('./routes/cart'); // Import cart routes
 const productRoutes = require('./routes/products'); // Import product routes
-const wishlistRoutes = require('./routes/wishlist'); // Import wishlist routes
+const wishlistRoutes = require('./routes/Wishlist'); // Import wishlist routes
 
 const app = express();
 const PORT = process.env.PORT || 5000;
